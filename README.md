@@ -11,3 +11,7 @@ var myCodeMirror = CodeMirror(document.body, {
   noNewlines: true
 });
 ```
+
+## Attribution
+
+Significant inspiration from https://discuss.codemirror.net/t/single-line-codemirror/195/4
