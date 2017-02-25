@@ -1,5 +1,5 @@
 {
-  "name": "codemirror-no-newline",
+  "name": "codemirror-no-newlines",
   "version": "1.0.0",
   "description": "add a CodeMirror option to prevent newlines being added to buffer",
   "main": "no-newline.js",

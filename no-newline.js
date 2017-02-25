@@ -1,5 +1,5 @@
 /**
- * Add a configuration option to CodeMirror called "noNewline" that when set as
+ * Add a configuration option to CodeMirror called "noNewlines" that when set as
  * 'true' will prevent any newline characters from being typed into the
  * CodeMirror editor and any newline character pasted into the editor will be
  * replaced by a single space.
@@ -46,7 +46,7 @@
     return null
   }
 
-  CodeMirror.defineOption('noNewline', false, function (cm, val, old) {
+  CodeMirror.defineOption('noNewlines', false, function (cm, val, old) {
     // Handle attaching/detaching event listners as necessary.
     if (val === true && old !== true) {
       cm.on('beforeChange', beforeChange)
